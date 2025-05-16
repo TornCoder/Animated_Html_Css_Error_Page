@@ -18,4 +18,4 @@ jobs:
       - name: Deploy to Surge
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-        run: surge --project ./dist --animated-html-css-error-page.surge.sh --token $SURGE_TOKEN
+        run: surge --project ./ --animated-html-css-error-page.surge.sh --token $SURGE_TOKEN
